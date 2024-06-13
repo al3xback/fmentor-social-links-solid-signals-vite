@@ -1,0 +1,46 @@
+.profile,
+.title-box,
+.social-links,
+.social-links li {
+	display: flex;
+	flex-direction: column;
+}
+
+.profile {
+	align-items: center;
+	gap: 2.4rem;
+	width: 100%;
+	max-width: 33rem;
+	padding: 2.4rem;
+	background-color: #1f1f1f;
+	margin: 4rem 0 6rem;
+	border-radius: 12px;
+}
+
+.image {
+	width: 8rem;
+	height: auto;
+	border-radius: 50%;
+}
+
+.title-box {
+	gap: 0.6rem;
+	text-align: center;
+}
+
+.location {
+	font-weight: 700;
+	color: #c5f82a;
+}
+
+.social-links {
+	align-self: stretch;
+	gap: 1.6rem;
+}
+
+@media (min-width: 48em) {
+	.profile {
+		max-width: 35.4rem;
+		padding: 3.6rem;
+	}
+}
