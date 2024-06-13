@@ -2,13 +2,13 @@ import styles from './Footer.module.css';
 
 export default function Footer() {
 	return (
-		<footer className={styles.footer}>
-			<div className={styles.container}>
+		<footer class={styles.footer}>
+			<div class={styles.container}>
 				<p>
 					Challenge by{' '}
 					<a
 						href='https://www.frontendmentor.io?ref=challenge'
-						className='btn btn--link'
+						class='btn btn--link'
 						rel='noopener'
 						target='_blank'
 					>
@@ -17,7 +17,7 @@ export default function Footer() {
 					. Coded by{' '}
 					<a
 						href='https://github.com/al3xback'
-						className='btn btn--link'
+						class='btn btn--link'
 						rel='noopener'
 						target='_blank'
 					>

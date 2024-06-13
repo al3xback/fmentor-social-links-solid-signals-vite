@@ -8,26 +8,20 @@ export default function Profile() {
 	const { image, name, location, job, socialLinks } = profile();
 
 	return (
-		<div className={styles.profile}>
-			<img
-				src={image}
-				className={styles.image}
-				width={80}
-				height={80}
-				alt={name}
-			/>
-			<div className={styles['title-box']}>
-				<h2 className={styles.title}>{name}</h2>
-				<p className={styles.location}>{location}</p>
+		<div class={styles.profile}>
+			<img src={image} width={80} height={80} alt={name} />
+			<div class={styles['title-box']}>
+				<h2>{name}</h2>
+				<p>{location}</p>
 			</div>
 			<p>&Prime;{job}&Prime;</p>
-			<ul className={styles['social-links']}>
+			<ul class={styles['social-links']}>
 				<For each={socialLinks}>
 					{(link) => (
 						<li>
 							<a
 								href={link.url}
-								className='btn btn--primary btn--full'
+								class='btn btn--primary btn--full'
 								rel='noopener'
 								target='_blank'
 							>

@@ -17,7 +17,7 @@
 	border-radius: 12px;
 }
 
-.image {
+.profile img {
 	width: 8rem;
 	height: auto;
 	border-radius: 50%;
@@ -28,7 +28,7 @@
 	text-align: center;
 }
 
-.location {
+.title-box p {
 	font-weight: 700;
 	color: #c5f82a;
 }
