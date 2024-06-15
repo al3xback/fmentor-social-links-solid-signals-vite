@@ -6,8 +6,8 @@ function App() {
 	return (
 		<>
 			<Header />
-			<main class='main'>
-				<div class='container'>
+			<main class="main">
+				<div class="container">
 					<Profile />
 				</div>
 			</main>

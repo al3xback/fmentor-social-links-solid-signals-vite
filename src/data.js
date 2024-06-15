@@ -8,23 +8,23 @@ export const PROFILE = {
 	socialLinks: [
 		{
 			name: 'GitHub',
-			url: '#'
+			url: '#',
 		},
 		{
 			name: 'Frontend Mentor',
-			url: '#'
+			url: '#',
 		},
 		{
 			name: 'LinkedIn',
-			url: '#'
+			url: '#',
 		},
 		{
 			name: 'Twitter',
-			url: '#'
+			url: '#',
 		},
 		{
 			name: 'Instagram',
-			url: '#'
-		}
-	]
+			url: '#',
+		},
+	],
 };

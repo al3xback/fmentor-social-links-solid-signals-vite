@@ -21,9 +21,9 @@ export default function Profile() {
 						<li>
 							<a
 								href={link.url}
-								class='btn btn--primary btn--full'
-								rel='noopener'
-								target='_blank'
+								class="btn btn--primary btn--full"
+								rel="noopener"
+								target="_blank"
 							>
 								{link.name}
 							</a>
