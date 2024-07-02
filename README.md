@@ -10,10 +10,6 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Links
-
-- Live Site URL: https://al3xback.github.io/fmentor-social-links-solid-signals-vite/
-
 ## My process
 
 ### Built with
